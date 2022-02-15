@@ -42,11 +42,11 @@ section {
 }
 
 .border-main {
-  
+
   border-color: var(--custom-main);
 }
 
-.border-footer{
+.border-footer {
   border-left: 2px solid var(--custom-light);
 }
 
@@ -65,7 +65,6 @@ section {
   color: var(--custom-main)
 }
 
-
 .title {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -74,17 +73,9 @@ section {
   border-bottom: 3px solid var(--custom-main);
 }
 
-.title-left {
-  border-right: 3px solid var(--custom-main);
-  border-bottom: 3px solid var(--custom-main);
-}
-
-.title-right {
-  border-left: 3px solid var(--custom-main);
-  border-bottom: 3px solid var(--custom-main);
-}
-
 .content {
+  padding: 16px;
+  margin-top: 8px;
   border-top: 3px solid var(--custom-main);
   border-left: 3px solid var(--custom-main);
   border-right: 3px solid var(--custom-main);
