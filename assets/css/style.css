@@ -1,5 +1,100 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
 
-li {
-  margin: 10px 0
+:root {
+  --custom-main: #020659;
+  --custom-light: #F2F2F2;
+  --custom-secondary: #2C4001;
+  --custom-alert: #898C2E;
+  --custom-dark: #0D0D0D;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  color: var(--custom-main);
+}
+
+a {
+  color: var(--custom-main)
+}
+
+
+header, footer {
+  background-color: var(--custom-main);
+  color: var(--custom-light);
+
+}
+
+section {
+  color: var(--custom-dark);
+
+}
+
+.icons {
+  display: flex;
+  color: var(--custom-light);
+  font-size: 32px;
+}
+
+.border-main {
+  
+  border-radius: 8px;
+  border-color: var(--custom-main);
+}
+
+.border-footer{
+  border-left: 2px solid var(--custom-light);
+}
+
+.icon {
+  display: inline;
+  width: 64px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.icon-dark {
+  color: var(--custom-main);
+}
+
+.text-main {
+  color: var(--custom-main)
+}
+
+
+.title {
+  border-left: 3px solid var(--custom-main);
+  border-right: 3px solid var(--custom-main);
+  border-bottom: 3px solid var(--custom-main);
+}
+
+.title-left {
+  border-right: 3px solid var(--custom-main);
+  border-bottom: 3px solid var(--custom-main);
+}
+
+.title-right {
+  border-left: 3px solid var(--custom-main);
+  border-bottom: 3px solid var(--custom-main);
+}
+
+.content {
+  border-top: 3px solid var(--custom-main);
+  border-left: 3px solid var(--custom-main);
+  border-right: 3px solid var(--custom-main);
+}
+
+.content-right {
+  border-top: 3px solid var(--custom-main);
+  border-left: 3px solid var(--custom-main);
+}
+
+.content-left {
+  border-top: 3px solid var(--custom-main);
+  border-right: 3px solid var(--custom-main);
 }
