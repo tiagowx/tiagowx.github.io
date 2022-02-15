@@ -43,7 +43,6 @@ section {
 
 .border-main {
   
-  border-radius: 8px;
   border-color: var(--custom-main);
 }
 
@@ -68,6 +67,8 @@ section {
 
 
 .title {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
   border-left: 3px solid var(--custom-main);
   border-right: 3px solid var(--custom-main);
   border-bottom: 3px solid var(--custom-main);
