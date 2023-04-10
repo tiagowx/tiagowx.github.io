@@ -7,5 +7,6 @@ export const app = {
   "education": {
     "academic":"",
     "certificates": []
-  }
+  },
+  "apiGitToken": process.env.REACT_APP_GH_TOKEN
 };

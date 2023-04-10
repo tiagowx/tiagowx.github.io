@@ -18,8 +18,8 @@ export const style: SxProps = {
       borderBottom: ".2rem solid #006",
       borderRadius: "0 0 .4rem .4rem",
     },
-    span: {
-      margin: ".5rem",
+    ".Mui-expanded": {
+      minHeight: "1rem",
     },
   },
 };

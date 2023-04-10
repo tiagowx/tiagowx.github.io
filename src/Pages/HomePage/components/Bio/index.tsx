@@ -92,11 +92,18 @@ const Bio = () => {
                     <Typography >
                       {bc.description}
                     </Typography>
-                    <Typography component="span" textAlign="right">
-                      Fornecido pela instituição {bc.institution}.
-                      Duração de {bc.durationInHours} horas.
-                      Concluído em {bc.month}/{bc.year}
-                    </Typography>
+                    <ul>
+
+                      <Typography component="li">
+                        Instituição: {bc.institution}.
+                      </Typography>
+                      <Typography component="li">
+                        Duração: {bc.durationInHours} horas.
+                      </Typography>
+                      <Typography component="li">
+                        Concluído em: {bc.month}/{bc.year}
+                      </Typography>
+                    </ul>
                   </AccordionDetails>
                   <AccordionActions>
                     <Link href={bc.link}>Abrir</Link>
